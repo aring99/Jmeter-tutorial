@@ -32,3 +32,7 @@ After running it, you should have a terminal open and we can monitor the slave m
 
 
  ## Setting up the Master Machine
+
+
+
+<img width="647" height="45" alt="image" src="https://github.com/user-attachments/assets/69ec5e71-e20e-49dd-ad18-a5c55a58f362" />
