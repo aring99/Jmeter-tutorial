@@ -26,6 +26,7 @@ So the next step is to uncomment it and set it to true like in the image below (
 Then save and close the file.
 
  5. The final step is to run Jmeter on the slave machine, on a windows machine you have to run the "jmeter-server.bat" as shown in the image below
+
     <img width="720" height="564" alt="image" src="https://github.com/user-attachments/assets/fb849b6e-1ac3-4943-9fbb-9d0707b7d3bf" />
 
 After running it, you should have a terminal open and we can monitor the slave machine from there.
@@ -35,7 +36,10 @@ After running it, you should have a terminal open and we can monitor the slave m
 1. Similar to the Slave machine, we navigate to the bin folder under Jmeter and open the file "jmeter.properties." with a text editor:Thread GroThread Groupuseupuse
 
 <img width="636" height="324" alt="image" src="https://github.com/user-attachments/assets/8bf506b1-c013-4836-8765-e25e751e180d" />
-2. Afterwards we disable the SSL certifaction recquirement just like in step 4 in Slave Machines.
+
+
+2. Afterwards we disable the SSL certifaction requirement just like in step 4 in Slave Machines.
+
 <img width="394" height="38" alt="image" src="https://github.com/user-attachments/assets/afd409df-da45-4cb8-b4df-f2262334f27c" />
 
 There is an additional step for the master, search "remote_hosts" and add the private ip of the slave machines, seperated with ","; as shown below.
