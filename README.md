@@ -10,6 +10,13 @@ For this tutorial, Java version 21 and Jmeter 5.6.3 was used. To keep it simple,
 
  ## Setting up the Slave Machine(s)
 
+
+## Script
+
+A script is provided for setting up Jmeter on Linux machines with Java 21, Jmeter 5.6.3 and also runs the jmeter server automatically.
+The steps on the script can be reproduced manually if you want to set up a linux slave machine manually. In this document, the steps for setting up a windows slave machine have been documented.
+
+## Setting up Slave Machines on Windows
  1. Before anything is done, take a note of the slave machine's private IP address. The master machine will need it.
  2. First, navigate to the folder where Jmeter is installed and open the bin folder.
 <img width="793" height="986" alt="image" src="https://github.com/user-attachments/assets/4e5eaa1b-c4ec-42df-b76e-0185ef4b11c5" />
